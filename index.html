@@ -20,19 +20,19 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 <script>
-// $(function(){
-// 	function scroll() {
-//         var height = $('#dem1 li').height();
-//         setInterval(function() {
-//             if ($('#dem1').height() > $('#dem').height()) {
-//                 $('#dem1').animate({ marginTop: -height + 'px' }, 1000, function() {
-//                     var p = $(this).css({ marginTop: '0px' }).find('li').eq(0).remove().clone();
-//                     $(this).append(p);
-//                 })
-//             }
-//         }, 6000)
-//     }
-// 	scroll();
+$(function(){
+function scroll() {
+var height = $('#dem1 li').height();
+setInterval(function() {
+if ($('#dem1').height() > $('#dem').height()) {
+    $('#dem1').animate({ marginTop: -height + 'px' }, 1000, function() {
+             var p = $(this).css({ marginTop: '0px' }).find('li').eq(0).remove().clone();
+               $(this).append(p);
+           })
+          }
+      }, 6000)
+    }
+	scroll();
 </script>
 	<style>
 		.el-input.is-disabled .el-input__inner {
