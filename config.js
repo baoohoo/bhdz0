@@ -1,11 +1,11 @@
 //注册链接
 const config_registerLinks = [
-    "https://www.99win55.com",
-    "https://www.99win55.com",
-    "https://www.99win55.com",
-    "https://www.99win55.com",
-    "https://www.99win55.com",
-    "https://www.99win55.com"
+    "https://www.4win55.com/?a=3311442",
+    "https://www.4win55.com/?a=3311442",
+    "https://www.4win55.com/?a=3311442",
+    "https://www.4win55.com/?a=3311442",
+    "https://www.4win55.com/?a=3311442",
+    "https://www.4win55.com/?a=3311442"
 ]
 const config_phone1 ='131242202116'//手机号码1
 const config_phone2 = '17645485273'//手机号码2
